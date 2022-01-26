@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    background-color: #fff3e4;
+    color: black;
+    text-align: center;
+    letter-spacing: 2.2px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100 vh;
+}
+
+.main {
+    display: flex;
+    flex: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 111, 111);
+    margin: 0 auto;
+    padding: 20;
+    user-select: none;
+    border: radius 15px;
+    min-width: 250px;
+    max-width: 500px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.time {
+    font-size: 2rem;
+    color: black;
+}
+
+button {
+    border: 0;
+    padding: 8px 20px;
+    margin: 0 2px 5px 0;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 15px;
+    background-color: #51f199;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.9);
+}
+
+button:active {
+    transform: scale(0.98);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
